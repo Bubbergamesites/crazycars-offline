@@ -8,8 +8,10 @@ const ASSETS_TO_CACHE = [
   './settings__.js',            // Game settings
   './modules__.js',             // Game modules
   './start__.js',               // Game entry point
-  './patch/poki-sdk.js',        // SDK patch
-  './manifest.json'             // Web manifest (optional but recommended)
+  './patch/poki-sdk.js',// SDK patch
+  './manifest.json',             // Web manifest (optional but recommended)
+  './loading__.js',
+  './styles.css'
 ];
 
 // Install Event: Cache all the files needed to run the game
